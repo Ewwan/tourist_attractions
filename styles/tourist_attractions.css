@@ -1,0 +1,107 @@
+body {
+    font-size: 12px;
+}
+
+#info {
+    position: absolute;
+    top: 33rem;
+    left: 1rem;
+    width: 50rem;
+    border: 2px outset #a2a2a5;
+    border-radius: 10px;
+    padding: 4px;
+}
+#info h3 {
+    margin-top: 2px;
+    font-size: 1.1rem;
+}
+#info p {
+    font-size: 1rem;
+}
+#cities {
+    position: absolute;
+    left: 1rem;
+}
+#cities img {
+    position: absolute;
+    width: 25rem;
+    height: 15rem;
+
+    box-shadow: -0.5px -0.5px 8px 0 rgba(0,0,0,0.2), 8px 8px 16px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+#cities img:hover {
+    box-shadow: -3px -3px 8px 0 rgba(0,0,0,0.3), 16px 16px 24px 0 rgba(0,0,0,0.4);
+    /*z-index: 1;
+    position: relative;*/
+  }
+
+#at {
+    top: 0rem;
+    left: 0rem;
+}
+#pl {
+    top: 0rem;
+    left: 25rem;
+}
+#es {
+    top: 15rem;
+    left: 25rem;
+}
+#hu {
+    top: 15rem;
+    left: 0rem;
+}
+figcaption {
+    display: none;
+    font-size: 0.3em;
+}
+.photo {
+    font-style: italic;
+    font-size: 0.3em;
+}
+/*.cities {
+    display:-ms-flexbox;
+    display:-moz-box;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display: flex;
+
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: stretch;
+    
+     
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+  
+
+@media (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  */
